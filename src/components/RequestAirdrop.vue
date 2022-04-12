@@ -6,7 +6,7 @@ import { Connection, clusterApiUrl, LAMPORTS_PER_SOL } from '@solana/web3.js';
 const { publicKey, connected } = useWallet();
 
 function setBalance (balance) {
-    store.commit('updateBalance', { balance });
+    store.commit('setBalance', { balance });
 }
 
 async function requestAirdrop () {

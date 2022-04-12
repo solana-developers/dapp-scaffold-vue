@@ -13,9 +13,6 @@ export const store = createStore({
         },
         setBalance (state, payload) {
             state.userSOLBalance = payload.balance
-        },
-        updateBalance (state, payload) {
-            state.userSOLBalance += payload.balance
         }
     }
 });

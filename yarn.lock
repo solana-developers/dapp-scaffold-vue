@@ -1306,23 +1306,6 @@
     "@solana/wallet-adapter-base" "^0.9.3"
     "@solana/web3.js" "^1.20.0"
 
-"@solana/wallet-adapter-react-ui@^0.9.6":
-  "integrity" "sha512-nGI1rRA318yHc19x8tvhsouDss+7olHdxyGpZGtZN6/SUQzoRk94OB/+4XMkPL4Aosv3GIqWHFqqQfhcxCbOTQ=="
-  "resolved" "https://registry.npmjs.org/@solana/wallet-adapter-react-ui/-/wallet-adapter-react-ui-0.9.6.tgz"
-  "version" "0.9.6"
-  dependencies:
-    "@solana/wallet-adapter-base" "^0.9.4"
-    "@solana/wallet-adapter-react" "^0.15.3"
-    "@solana/web3.js" "^1.36.0"
-
-"@solana/wallet-adapter-react@^0.15.3":
-  "integrity" "sha512-QB8tE1IqYxvHrdDZP3DGICuCq6xydvjUYhW+usIahORmHniFF62Mp/LPfdAGZRDFF7U2/rZPktGFiOxWUJA7Qw=="
-  "resolved" "https://registry.npmjs.org/@solana/wallet-adapter-react/-/wallet-adapter-react-0.15.4.tgz"
-  "version" "0.15.4"
-  dependencies:
-    "@solana/wallet-adapter-base" "^0.9.4"
-    "@solana/web3.js" "^1.36.0"
-
 "@solana/wallet-adapter-safepal@^0.5.2":
   "integrity" "sha512-30EOCDYJ/bq1HqKSkBlzCHsWITa82WJml2O46/CMUl1mOhxOJ1ghFSmIhqyHlgqQPcd5Orqvp1db+uj8v/i58w=="
   "resolved" "https://registry.npmjs.org/@solana/wallet-adapter-safepal/-/wallet-adapter-safepal-0.5.3.tgz"
@@ -4249,6 +4232,11 @@
   "integrity" "sha1-FQStJSMVjKpA20onh8sBQRmU6k8="
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
+
+"fsevents@~2.3.2":
+  "integrity" "sha512-xiqMQR4xAeHTuB9uWm+fFRcIOgKBMiOBP+eXiyT7jsgVCq1bkVygt00oASowB7EdtpOHaaPgKt812P9ab+DDKA=="
+  "resolved" "https://registry.npmjs.org/fsevents/-/fsevents-2.3.2.tgz"
+  "version" "2.3.2"
 
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="

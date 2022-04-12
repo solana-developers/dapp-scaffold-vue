@@ -12,10 +12,13 @@ const onClick = async () => {
 
         let signature = '';
         try {
+            // send 1 lamport to random account
+            // https://solanacookbook.com/references/basic-transactions.html#how-to-send-sol
+            const account = Keypair.generate();
             const transaction = new Transaction().add(
                 SystemProgram.transfer({
                     fromPubkey: publicKey.value,
-                    toPubkey: Keypair.generate().publicKey,
+                    toPubkey: account.publicKey,
                     lamports: 1,
                 })
             );
