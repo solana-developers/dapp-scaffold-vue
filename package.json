@@ -12,6 +12,7 @@
     "@solana/web3.js": "^1.36.0",
     "core-js": "^3.8.3",
     "daisyui": "^2.11.1",
+    "node-polyfill-webpack-plugin": "^2.0.1",
     "solana-wallets-vue": "^0.3.2",
     "tweetnacl": "^1.0.3",
     "vue": "^3.2.13",

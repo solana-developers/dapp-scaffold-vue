@@ -19,7 +19,7 @@ const onClick = async () => {
                 SystemProgram.transfer({
                     fromPubkey: publicKey.value,
                     toPubkey: account.publicKey,
-                    lamports: 1,
+                    lamports: 1_000_000,
                 })
             );
 
