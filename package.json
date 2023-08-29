@@ -8,12 +8,12 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@solana/wallet-adapter-wallets": "^0.15.5",
-    "@solana/web3.js": "^1.36.0",
+    "@solana/wallet-adapter-wallets": "^0.19.20",
+    "@solana/web3.js": "^1.78.4",
     "core-js": "^3.8.3",
     "daisyui": "^2.11.1",
     "node-polyfill-webpack-plugin": "^2.0.1",
-    "solana-wallets-vue": "^0.3.2",
+    "solana-wallets-vue": "^0.6.0",
     "tweetnacl": "^1.0.3",
     "vue": "^3.2.13",
     "vue-router": "^4.0.14",
